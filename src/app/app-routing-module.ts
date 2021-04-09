@@ -15,7 +15,7 @@ const appRoutes: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'blog-post', component: BlogPostComponent },
     { path: 'contact', component: ContactComponent},
-    { path: '**', pathMatch: 'full', redirectTo: '' } // Cuando la direccion no sea ninguna de las anteriores
+    { path: '**', pathMatch: 'full', redirectTo: '' }
 ];
 
 @NgModule({
